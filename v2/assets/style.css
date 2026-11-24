@@ -399,6 +399,26 @@ a.code.xver { text-decoration-style: dashed; }
 table.decisions .status { white-space: normal; }
 a.url, .proposal li { overflow-wrap: anywhere; }
 
+/* ---------- detailed lesson plans ---------- */
+.lp-status p { max-width: none; }
+.lp-toc .lp-jump { margin-top: .8rem; }
+.lp-toc .lp-jump h3 { font-size: .85rem; margin: .4rem 0 .3rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+ol.jump { list-style: none; padding: 0; margin: 0; columns: auto; display: flex; flex-wrap: wrap; gap: .3rem; }
+ol.jump li { margin: 0; }
+ol.jump a { display: inline-block; min-width: 2.2rem; text-align: center; padding: .2rem .3rem; border: 1px solid var(--rule); text-decoration: none; font-variant-numeric: tabular-nums; }
+ol.jump a:hover, ol.jump a:focus { border-color: var(--accent); text-decoration: underline; }
+.lesson-plan h3 { margin-top: 2rem; }
+.lesson-plan h4 { margin: 1.6rem 0 .4rem; padding-top: .5rem; border-top: 1px solid var(--rule-2); scroll-margin-top: 1rem; }
+.lesson-plan li { max-width: 52rem; }
+.lesson-plan blockquote { border-left: 3px solid var(--rule); margin: .8rem 0; padding: .1rem 1rem; background: var(--panel); }
+.lesson-plan blockquote p { margin: .35rem 0; }
+.source-line { margin-top: 2rem; }
+@media print { .lp-toc .lp-jump { display: none; } }
+.lp-toc > ol { list-style: none; padding-left: 0; }
+.lesson-plan pre { max-width: 100%; overflow-x: auto; box-sizing: border-box; }
+.lesson-plan li { min-width: 0; overflow-wrap: anywhere; }
+.lesson-plan li > pre { max-width: calc(100vw - 4rem); }
+
 /* ===== design option: editorial ===== */
 /* Design option E: "Editorial".
    A bold, modern university look: a deep indigo colour block for the header, key figures and footer,
