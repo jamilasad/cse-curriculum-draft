@@ -1,0 +1,10 @@
+Fonts used by this site
+=======================
+
+Every font in this folder is free software under the SIL Open Font License, Version 1.1.
+Full licence text: https://openfontlicense.org/open-font-license-official-text/
+
+Each file still carries its original copyright notice and licence link inside the font.
+
+- Fraunces: Copyright 2020 The Fraunces Project Authors (github.com/undercasetype/Fraunces). Latin subset, WOFF. (files: fraunces-*.woff)
+- DM Sans: Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts). Latin subset, WOFF. (files: dmsans-*.woff)
