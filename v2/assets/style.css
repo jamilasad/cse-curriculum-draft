@@ -462,6 +462,9 @@ button:hover { background: var(--block-2); }
 .site-search button { background: var(--signal); border: 0; color: var(--ink); padding: .6rem 1.1rem; }
 .site-search button:hover { background: #ffc955; }
 .masthead a:focus-visible, .masthead input:focus-visible, .masthead button:focus-visible { outline-color: var(--signal); }
+/* version switch: the global a:hover colour (--accent-dark) is almost the masthead colour, so the switch gets its own hover */
+.masthead .version-switch a:hover { background: #fff; border-color: #fff; color: var(--block); text-decoration: none; }
+.masthead .version-switch a[aria-current]:hover { background: var(--signal-tint); border-color: var(--signal); color: var(--ink); }
 .topnav { max-width: 88rem; margin: 0 auto; padding: 0 1.5rem; }
 .topnav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 2.2rem; border-top: 1px solid var(--block-line); }
 .topnav a { display: block; padding: .8rem 0 .65rem; color: #fff; text-decoration: none; font-weight: 500; font-size: 1rem; border-bottom: 4px solid transparent; }
